@@ -30,4 +30,4 @@ def generate_code(request):
 
     code = random.randint(1000, 9999)
     request.session.flush() 
-    return HttpResponse(f"<h1>Code: {code}</h1>")
+    return HttpResponse(f"<h1>Code : {code}</h1>")
